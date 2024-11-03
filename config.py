@@ -3,8 +3,8 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", "20918873"))
-API_HASH = getenv("API_HASH", "55def0bf201add8cb672967921f65551")
+API_ID = int(getenv("API_ID", "24935727"))
+API_HASH = getenv("API_HASH", "3fd33336629324ecd664e9b6894f0909")
 BOT_TOKEN = getenv("BOT_TOKEN", "7867901275:AAG5gLTwTO0hRTub3e5jmklNGHNfQ_v_SGo")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7336971189").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://sujay5372222222:sujay5372222222@cluster0000007.fdufm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0000007")
